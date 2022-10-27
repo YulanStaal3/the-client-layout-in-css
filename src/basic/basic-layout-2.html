@@ -10,29 +10,28 @@
       body {
         display: grid;
         grid-gap: 10px;
-        grid-template-columns:  3fr 1fr 6fr 1fr 6fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 2fr 1fr 4fr 1fr;
         grid-template-areas: 
-        ".. top .."
-        ".. middle .."
-        ".. yellow.."
-        ".. bottom .."
+        "header"
+        "nav"
+        "main"
+        "footer"
       }
 
       header {
-        grid-area: top;
+        grid-area: header;
       }
 
       nav {
-        grid-area: middle;
+        grid-area: nav;
       }
 
       main {
-        grid-area: yellow;
+        grid-area: main;
       }
 
       footer {
-        grid-area: bottom;
+        grid-area: footer;
       }
 
     </style>
